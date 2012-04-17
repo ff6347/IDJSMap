@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>IDJSMap by fabiantheblind</title>
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>IDJSMap</h1>
+        <p>Creat a equirectangular projected map in ID CS4+</p>
+        <p class="view"><a href="https://github.com/fabiantheblind/IDJSMap">View the Project on GitHub <small>fabiantheblind/IDJSMap</small></a></p>
+        <ul>
+          <li><a href="https://github.com/fabiantheblind/IDJSMap/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/fabiantheblind/IDJSMap/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/fabiantheblind/IDJSMap">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>IMPORTANT README</h1>
+
+<h1>placeOnWorldMap.js</h1>
+
+<p>this script "placeOnWorldMap.js" builds a map and places data on it<br>
+right now it can build<br>
+- the capitols of the world<br>
+- 2000 weather stations from nort america<br>
+- nuclear test sites from 1945 till 2006<br>
+nuclear testsites is the most implemeted one  </p>
+
+<h2>requirements in short</h2>
+
+<p>this is tested in InDesign CS5<br>
+some of the view settings may not work in CS 4 - everything else should<br>
+remove out function reset_activeView(page) if you use CS4  </p>
+
+<p><strong>these are the databases the code works with:</strong><br><a href="https://raw.github.com/fabiantheblind/world.geo.json/master/countries.geo.json">https://raw.github.com/fabiantheblind/world.geo.json/master/countries.geo.json</a><br><a href="https://raw.github.com/fabiantheblind/moreTimeForDesign/javascript/indesign/jsonfiles/World_nuclear_test_sites.json">https://raw.github.com/fabiantheblind/moreTimeForDesign/javascript/indesign/jsonfiles/World_nuclear_test_sites.json</a><br><strong>this is the image used:</strong><br><a href="https://github.com/fabiantheblind/moreTimeForDesign/raw/javascript/indesign/radiation_warning.bmp">https://github.com/fabiantheblind/moreTimeForDesign/raw/javascript/indesign/radiation_warning.bmp</a><br><strong>without them there is no map and so on</strong><br><strong>for convinence you can load zipped packages from here:</strong><br>
+ here: <a href="https://github.com/fabiantheblind/moreTimeForDesign/zipball/javascript">https://github.com/fabiantheblind/moreTimeForDesign/zipball/javascript</a><br>
+ and here: <a href="https://github.com/fabiantheblind/world.geo.json/zipball/master">https://github.com/fabiantheblind/world.geo.json/zipball/master</a> </p>
+
+<p>the folder structure is like this (Mac):<br>
+in (folder) Applications in (folder) InDesign CS5+ in (folder) Scripts in (folder) Scripts Panel in (folder) moreTimeForDesign  </p>
+
+<p>in (folder) indesign (file) placeOnWorldMap.js<br>
+in (folder) indesign (file) radiation_warning.bmp
+in (folder) indesign in (folder) jsonfiles (file) World_nuclear_test_sites.json<br>
+in (folder) indesign in (folder) world.geo.json (file) countries.geo.json  </p>
+
+<p><strong>and this is the used font DejaVu:</strong><br><a href="http://dejavu-fonts.org/wiki/Main_Page">http://dejavu-fonts.org/wiki/Main_Page</a></p>
+
+<p>so if you load the zipped packages you just have to:<br>
+- rename the folder "fabiantheblind-world.geo.json-********"" to "world.geo.json"<br>
+- drop it next to the scriptfile<br>
+- install the fonts  </p>
+
+<p>be aware of the folder structure  </p>
+
+<p>fabiantheblind 2012 03 03  </p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/fabiantheblind">fabiantheblind</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
